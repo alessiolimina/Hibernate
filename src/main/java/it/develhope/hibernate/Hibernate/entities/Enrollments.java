@@ -11,13 +11,13 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table
-public class enrollments {
+public class Enrollments {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     @ManyToOne
-    private students student;
+    private Students student;
     @ManyToOne
-    private classes classe;
+    private Classes classe;
 
 }
