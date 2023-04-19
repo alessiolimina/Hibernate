@@ -4,8 +4,8 @@ spring:
     username: root
     password: gTYù=(iA5?&_/
 
-jpa:
-  database: mysql
-  show-sql: true
-  hibernate:
-    ddl-auto: create-drop
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop

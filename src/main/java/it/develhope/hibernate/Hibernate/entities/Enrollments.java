@@ -6,10 +6,11 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Entity
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Entity
 @Table
 public class Enrollments {
     @Id
@@ -18,6 +19,6 @@ public class Enrollments {
     @ManyToOne
     private Students student;
     @ManyToOne
-    private Classes classe;
+    private Classes classes;
 
 }

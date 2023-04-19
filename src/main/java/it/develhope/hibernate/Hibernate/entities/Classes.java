@@ -5,12 +5,13 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Entity
 @Table
 public class Classes {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
